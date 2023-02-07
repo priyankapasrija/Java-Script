@@ -1,0 +1,51 @@
+:root {
+  font-size: 16px;
+  --text-color: #fff;
+  --header-color: rgb(65, 65, 171);
+  --header-bg-color: rgb(144, 179, 167);
+  --middle-bg-color: rgb(80, 78, 78);
+}
+
+* {
+  margin: 0%;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header {
+  height: 10%;
+  text-align: center;
+  background-color: var(--header-bg-color);
+  margin: 0;
+  padding: 1rem;
+}
+.header h1 {
+  color: var(--header-color);
+}
+
+.container {
+  position: absolute;
+  top: 40%;
+  left: 28%;
+}
+.container h2 {
+  background-color: var(--middle-bg-color);
+  padding: 2rem 4rem 2rem 4rem;
+  width: 80%;
+  font-size: 2rem;
+  border-radius: 4px;
+  color: var(--text-color);
+}
+
+.btn {
+  margin: 2rem;
+  margin-left: 15rem;
+  padding: 0.5rem 1.5rem;
+  background-color: var(--header-bg-color);
+  color: var(--header-color);
+  border-radius: 4px;
+  font-weight: bold;
+  border: 2px solid var(--middle-bg-color);
+}
